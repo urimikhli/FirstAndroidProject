@@ -1,12 +1,14 @@
 package com.example.firstandroidapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
+import android.widget.EditText;
 
 public class MainActivity extends Activity {
-	public final static String EXTRA_MESSAGE = "com.workspace.FirstAndroidApp.MESSAGE";
+	public final static String EXTRA_MESSAGE = "com.example.FirstAndroidApp.MESSAGE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
